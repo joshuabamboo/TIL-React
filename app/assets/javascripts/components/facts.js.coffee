@@ -12,7 +12,7 @@
       className: 'facts'
       React.DOM.h1
         className: 'title'
-        'Facts'
+        'Today I Learned'
       React.createElement FactForm, handleNewFact: @addFact
       React.DOM.table
         className: 'table table-bordered'
